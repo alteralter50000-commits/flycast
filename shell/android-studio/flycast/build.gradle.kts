@@ -18,7 +18,8 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.flycast.emulator"
+        // Different from upstream Flycast so both can be installed side by side
+        applicationId = "com.flycast.dashboard"
         minSdk = 21
         targetSdk = 36
         versionCode = 8

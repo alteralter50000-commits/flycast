@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dash_tab_games">الألعاب</string>
+    <string name="dash_tab_add">إضافة ألعاب</string>
+    <string name="dash_tab_files">الملفات</string>
+    <string name="dash_tab_settings">الإعدادات</string>
+    <string name="dash_tab_emulator">المحاكي</string>
+
+    <string name="dash_empty_games">لا توجد ألعاب بعد.\nاذهب إلى إضافة ألعاب لإضافة ملفات الألعاب أو مجلد كامل.</string>
+    <string name="dash_play">اضغط A للعب</string>
+
+    <string name="dash_add_files">إضافة ملفات ألعاب</string>
+    <string name="dash_add_files_desc">اختر ملفاً أو أكثر من جهازك. الألعاب المكوّنة من عدة ملفات (GDI) الأفضل إضافتها عبر المجلد.</string>
+    <string name="dash_add_folder">إضافة مجلد ألعاب</string>
+    <string name="dash_add_folder_desc">فحص المجلد والمجلدات الفرعية بحثاً عن ألعاب GDI وCDI وCHD وCUE وZIP و7Z.</string>
+    <string name="dash_clear">مسح قائمة الألعاب</string>
+    <string name="dash_clear_desc">إزالة كل الألعاب من القائمة. ملفاتك لا تُحذف.</string>
+
+    <string name="dash_files_browse">تصفح الملفات</string>
+    <string name="dash_files_browse_desc">فتح متصفح ملفات Flycast لاستعراض المجلدات وتشغيل لعبة منه.</string>
+    <string name="dash_files_pick">اختيار لعبة وتشغيلها</string>
+    <string name="dash_files_pick_desc">اختر ملف لعبة بمنتقي ملفات النظام وابدأ تشغيلها فوراً.</string>
+
+    <string name="dash_bg">تغيير الخلفية</string>
+    <string name="dash_bg_desc">اختر صورة من جهازك لتكون خلفية الواجهة.</string>
+    <string name="dash_bg_reset">إعادة الخلفية الافتراضية</string>
+    <string name="dash_bg_reset_desc">العودة إلى الخلفية الأصلية.</string>
+    <string name="dash_music">اختيار موسيقى الخلفية</string>
+    <string name="dash_music_desc">اختر ملفاً صوتياً (MP3 أو OGG أو WAV) يتكرر أثناء وجودك في الواجهة.</string>
+    <string name="dash_music_state">موسيقى الخلفية: %1$s</string>
+    <string name="dash_music_state_desc">تشغيل موسيقى الخلفية أو إيقافها.</string>
+    <string name="dash_music_reset">إزالة موسيقى الخلفية</string>
+    <string name="dash_music_reset_desc">التوقف عن استخدام ملف الموسيقى.</string>
+    <string name="dash_volume">مستوى الموسيقى: %1$d%%</string>
+    <string name="dash_volume_desc">اضغط A لرفع الصوت. يعود إلى الصفر بعد الحد الأقصى.</string>
+    <string name="dash_click">اختيار صوت النقر</string>
+    <string name="dash_click_desc">اختر ملفاً صوتياً قصيراً يُستخدم عند التنقل والاختيار.</string>
+    <string name="dash_click_state">أصوات النقر: %1$s</string>
+    <string name="dash_click_state_desc">تشغيل أصوات القائمة أو إيقافها.</string>
+    <string name="dash_click_reset">إعادة صوت النقر الافتراضي</string>
+    <string name="dash_click_reset_desc">العودة إلى الأصوات المدمجة.</string>
+    <string name="dash_on">تشغيل</string>
+    <string name="dash_off">إيقاف</string>
+
+    <string name="dash_emu_open">فتح Flycast</string>
+    <string name="dash_emu_open_desc">قائمة المحاكي الأصلية بكل خياراتها: دقة الفيديو، أزرار التحكم، الصوت، البايوس، حفظ الحالة وغيرها. إعدادات المحاكي كما هي بدون تغيير.</string>
+
+    <string name="dash_hint_select">اختيار</string>
+    <string name="dash_hint_back">رجوع</string>
+    <string name="dash_hint_tabs">التبويبات</string>
+
+    <string name="dash_toast_added">تمت إضافة %1$d لعبة</string>
+    <string name="dash_toast_scanning">جارٍ فحص المجلد…</string>
+    <string name="dash_toast_no_picker">لم يتم العثور على منتقي ملفات في هذا الجهاز</string>
+    <string name="dash_toast_failed">تعذّر استخدام هذا الملف</string>
+    <string name="dash_toast_cleared">تم مسح قائمة الألعاب</string>
+    <string name="dash_scanning">جارٍ البحث عن ألعابك…</string>
+    <string name="dash_rescan">تحديث قائمة الألعاب</string>
+    <string name="dash_rescan_desc">البحث مجدداً في مجلدات الألعاب المحددة في المحاكي (إعدادات Flycast ← عام ← مجلدات الألعاب) وفي هذا التطبيق.</string>
+    <string name="dash_toast_found">تم العثور على %1$d لعبة</string>
+</resources>

@@ -59,15 +59,23 @@
             android:screenOrientation="sensorLandscape"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity-alias
-            android:name="com.flycast.emulator.MainActivity"
-            android:targetActivity="com.flycast.emulator.NativeGLActivity"
-			android:exported="true">
+        <!-- Console-style start screen: this is now the app's launcher entry (phones and Android TV) -->
+        <activity
+            android:name="com.flycast.emulator.dashboard.DashboardActivity"
+            android:configChanges="orientation|navigation|screenSize|screenLayout|uiMode|keyboard|keyboardHidden"
+            android:screenOrientation="sensorLandscape"
+            android:exported="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity-alias
+            android:name="com.flycast.emulator.MainActivity"
+            android:targetActivity="com.flycast.emulator.NativeGLActivity"
+			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.VIEW" />
 

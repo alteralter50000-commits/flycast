@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dash_tab_games">Games</string>
+    <string name="dash_tab_add">Add Games</string>
+    <string name="dash_tab_files">Files</string>
+    <string name="dash_tab_settings">Settings</string>
+    <string name="dash_tab_emulator">Emulator</string>
+
+    <string name="dash_empty_games">No games yet.\nGo to Add Games to add game files or a whole folder.</string>
+    <string name="dash_play">Press A to play</string>
+
+    <string name="dash_add_files">Add game files</string>
+    <string name="dash_add_files_desc">Choose one or more game files from your device. Games made of several files (GDI) work best when added with a folder.</string>
+    <string name="dash_add_folder">Add a games folder</string>
+    <string name="dash_add_folder_desc">Scan a folder and its sub-folders for GDI, CDI, CHD, CUE, ZIP and 7Z games.</string>
+    <string name="dash_clear">Clear game list</string>
+    <string name="dash_clear_desc">Remove every game from the list. Your files are not deleted.</string>
+
+    <string name="dash_files_browse">Browse files</string>
+    <string name="dash_files_browse_desc">Open the Flycast file browser to explore your folders and start a game from there.</string>
+    <string name="dash_files_pick">Pick a game and play</string>
+    <string name="dash_files_pick_desc">Choose a game file with the system file picker and start it right away.</string>
+
+    <string name="dash_bg">Change background</string>
+    <string name="dash_bg_desc">Choose a picture from your device to use as the dashboard background.</string>
+    <string name="dash_bg_reset">Reset background</string>
+    <string name="dash_bg_reset_desc">Go back to the default background.</string>
+    <string name="dash_music">Choose background music</string>
+    <string name="dash_music_desc">Pick an audio file (MP3, OGG, WAV) that loops while you are on the dashboard.</string>
+    <string name="dash_music_state">Background music: %1$s</string>
+    <string name="dash_music_state_desc">Turn the background music on or off.</string>
+    <string name="dash_music_reset">Remove background music</string>
+    <string name="dash_music_reset_desc">Stop using your music file.</string>
+    <string name="dash_volume">Music volume: %1$d%%</string>
+    <string name="dash_volume_desc">Press A to raise the volume. It goes back to zero after the maximum.</string>
+    <string name="dash_click">Choose click sound</string>
+    <string name="dash_click_desc">Pick a short audio file used when moving and selecting.</string>
+    <string name="dash_click_state">Click sounds: %1$s</string>
+    <string name="dash_click_state_desc">Turn the menu sounds on or off.</string>
+    <string name="dash_click_reset">Reset click sound</string>
+    <string name="dash_click_reset_desc">Go back to the built-in sounds.</string>
+    <string name="dash_on">On</string>
+    <string name="dash_off">Off</string>
+
+    <string name="dash_emu_open">Open Flycast</string>
+    <string name="dash_emu_open_desc">The original emulator menu with all its options: video resolution, controls, audio, BIOS, save states and more. Your emulator settings are untouched.</string>
+
+    <string name="dash_hint_select">Select</string>
+    <string name="dash_hint_back">Back</string>
+    <string name="dash_hint_tabs">Tabs</string>
+
+    <string name="dash_toast_added">%1$d game(s) added</string>
+    <string name="dash_toast_scanning">Scanning folder…</string>
+    <string name="dash_toast_no_picker">No file picker was found on this device</string>
+    <string name="dash_toast_failed">That file could not be used</string>
+    <string name="dash_toast_cleared">Game list cleared</string>
+    <string name="dash_scanning">Looking for your games…</string>
+    <string name="dash_rescan">Refresh game list</string>
+    <string name="dash_rescan_desc">Look again in the game folders set in the emulator (Flycast settings → General → Game Directories) and in this app.</string>
+    <string name="dash_toast_found">%1$d game(s) found</string>
+</resources>
